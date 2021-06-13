@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* [2] */
+
+@font-face {
+    font-family: 'Cute Font';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cutefont/v10/Noaw6Uny2oWPbSHMrY6vnftDNiAS_WKVDmHrdR_iLPBq78z4.2.woff2) format('woff2');
+    unicode-range: U+d723-d728, U+d72a-d733, U+d735-d748, U+d74a-d74f, U+d752-d753, U+d755-d757, U+d75a-d75f, U+d762-d764, U+d766-d768, U+d76a-d76b, U+d76d-d76f, U+d771-d787, U+d789-d78b, U+d78d-d78f, U+d791-d797, U+d79a, U+d79c, U+d79e-d7a3, U+f900-f909, U+f90b-f92e;
+}
+
+body {
+    background-image: url(./imgs/dcvqzzo-079fc1d0-1d41-4add-a0f6-a32018b7c17d.jpg);
+    background-image: url(./imgs/dcztbfs-b6f639ee-6faa-4047-baa8-c71ab43b4eab.jpg);
+    background-image: url(./imgs/dd6j1bh-ec799aed-c382-4fcf-bec0-d2e414ceebe0.jpg);
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Cute Font';
+    font-size: 3rem;
+}
+
+.header {
+    font-family: 'Cute Font';
+    border: #272626ad solid 2px;
+    background: rgba(255, 255, 255, 0.582);
+    margin-bottom: 2%;
+    height: 4rem;
+}
+
+th {
+    font-weight: 800;
+    background-color: #2695A6;
+    color: #ffffff;
+    text-align: center;
+}
+
+table {
+    font-family: Helvetica, sans-sarif;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2695A6;
+    background-color: rgba(236, 233, 233, 0.575);
+    width: 110%;
+}
+
+td {
+    text-align: center;
+    font-weight: 700;
+}
+
+.films {
+    margin: auto;
+    width: 60%;
+}
